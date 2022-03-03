@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="index.js" defer></script>
+  <link href="index.css" rel="stylesheet">
+  <title>Tabs</title>
+</head>
+<body>
+    <div class='wrapper'>
+        <ul class="tabs">
+            <li data-tab-target="#Innovators" class="active tab">Innovators</li>
+            <li data-tab-target="#Adopters" class="tab">Early Adopters</li>
+            <li data-tab-target="#Majority" class="tab">Early Majority</li>
+            <li data-tab-target="#LateM" class="tab">Late Majority</li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="Innovators" data-tab-content class="active">
+
+                <ul class="tabs-2">
+                    <li data-tab-target2="#Elixir" class="active tab">Elixir</li>
+                    <li data-tab-target2="#Dart" class="tab">Dart</li>
+                    <li data-tab-target2="#Ballerina" class="tab">Ballerina</li>
+                </ul>
+                <div class="HL"></div>
+                <div class="tab-content-2">
+                        <div id="Elixir" data-tab-content2 class="active">
+                            <p>Elixir</p>
+                            <p>CLI</p>
+                        </div>
+                        <div id="Dart" data-tab-content2>
+                            <p>Dart</p>
+                            <p>CLI</p>
+                        </div>
+                        <div id="Ballerina" data-tab-content2>
+                            <p>Ballerina</p>
+                            <p>CLI</p>
+                        </div>
+                </div>
+
+            </div>
+            <div id="Adopters" data-tab-content>
+                <ul class="tabs-2">
+                    <li data-tab-target2="#Go" class="active tab">Go</li>
+                    <li data-tab-target2="#Swift" class="tab">Swift</li>
+                    <li data-tab-target2="#Rust" class="tab">Rust</li>
+                    <li data-tab-target2="#Server" class="tab">Server-side Swift</li>
+                    <li data-tab-target2="#Erlang" class="tab">Erlang</li>
+                    <li data-tab-target2="#Cloud" class="tab">Cloud-based IDEs</li>
+                </ul>
+                <div class="HL"></div>
+                <div class="tab-content-2">
+                        <div id="Go" data-tab-content2 class="active">
+                            <p>For more information, see <a href="https://cloud.google.com/go/docs/setup" target="blank">Setting Up a Go Development Environment.</a></p>
+                            <p>go get cloud.google.com/go/speech/apiv1</p>
+                        </div>
+                        <div id="Swift" data-tab-content2>
+                            <p>Swift</p>
+                            <p>CLI</p>
+                        </div>
+                        <div id="Rust" data-tab-content2>
+                            <p>Rust</p>
+                            <p>CLI</p>
+                        </div>
+                        <div id="Server" data-tab-content2>
+                            <p>Server-side Swift</p>
+                            <p>CLI</p>
+                        </div>
+                        <div id="Erlang" data-tab-content2>
+                            <p>Erlang</p>
+                            <p>CLI</p>
+                        </div>
+                        <div id="Cloud" data-tab-content2>
+                            <p>Cloud-based IDEs</p>
+                            <p>CLI</p>
+                        </div>
+                        <div id="Ballerina" data-tab-content2>
+                            <p>Rust</p>
+                            <p>CLI</p>
+                        </div>
+                </div>
+            </div>
+            <div id="Majority" data-tab-content>
+                <ul class="tabs-2">
+                    <li data-tab-target2="#C" class="active tab">C#</li>
+                    <li data-tab-target2="#IOS" class="tab">Swift (for IOS)</li>
+                    <li data-tab-target2="#Python" class="tab">Python</li>
+                    <li data-tab-target2="#TypeScript" class="tab">TypeScript</li>
+                </ul>
+                <div class="HL"></div>
+                <div class="tab-content-2">
+                        <div id="C" data-tab-content2 class="active">
+                            <p>For more information, see <a href="https://cloud.google.com/dotnet/docs/setup">Setting Up a C# Development Environment.</a></p>
+                            <p>If you are using Visual Studio 2017 or higher, open nuget package manager window and type the following:</p>
+                            <p>Install-Package Google.Apis</p>
+                            <p>If you are using .NET Core command-line interface tools to install your dependencies, run the following command:</p>
+                            <p>dotnet add package Google.Apis</p>
+                        </div>
+                        <div id="IOS" data-tab-content2>
+                            <p>Swift (for IOS)</p>
+                            <p>CLI</p>
+                        </div>
+                        <div id="Python" data-tab-content2>
+                            <p>For more information, see <a href="https://cloud.google.com/python/docs/setup" target="blank">Setting Up a Python Development Environment.</a></p>
+                            <p>pip install --upgrade google-cloud-speech</p>
+                        </div>
+                        <div id="TypeScript" data-tab-content2>
+                            <p>TypeScript</p>
+                            <p>CLI</p>
+                        </div>
+                </div>
+            </div>
+            <div id="LateM" data-tab-content>
+                    <ul class="tabs-2">
+                        <li data-tab-target2="#PHP" class="active tab">PHP</li>
+                        <li data-tab-target2="#Ruby" class="tab">Ruby</li>
+                        <li data-tab-target2="#JavaScript" class="tab">JavaScript</li>
+                    </ul>
+                    <div class="HL"></div>
+                    <div class="tab-content-2">
+                            <div id="PHP" data-tab-content2 class="active">
+                                <p>For more information, see <a href="https://cloud.google.com/php/docs" target="blank">Setting Up a Ruby Development Environment.</a></p>
+                                <p>gem install google-api-client</p>
+                            </div>
+                            <div id="Ruby" data-tab-content2>
+                                <p>For more information, see <a href="https://cloud.google.com/ruby/docs/setup" target="blank">Setting Up a Ruby Development Environment.</a></p>
+                                <p>CLI</p>
+                            </div>
+                            <div id="JavaScript" data-tab-content2>
+                                <p>JavaScript</p>
+                                <p>CLI</p>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div> 
+ </div>
+</body>
+</html>
